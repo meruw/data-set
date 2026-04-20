@@ -1,6 +1,5 @@
-fastapi
-uvicorn[standard]
-requests
-pydantic
-PyYAML
-python-dotenv
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+requests==2.32.0
+PyYAML==6.0.1
+pydantic-settings==2.2.1
