@@ -11,20 +11,13 @@ async def lifespan(app: FastAPI):
 
     yield  #app running
 
-    # on shutdowm
+    # on shutdown
     print("shutting down")
 
 app = FastAPI(
     title="Fastbank Demo Data",
     version="1.0.0",
     lifespan=lifespan
-)
-
-
-
-app = FastAPI( #create app
-    title="Fastbank Demo Data",
-    version="1.0.0"
 )
 
 
