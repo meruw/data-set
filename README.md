@@ -37,22 +37,22 @@ This tool provides:
 
 ## Key Features
 
-* **Scenario-driven architecture**
+* **Scenario-driven architecture** -
   Define complete demo setups using YAML files
 
-* **SAP B1 integration**
+* **SAP B1 integration** -
   Create Business Partners, Invoices, and other entities via Service Layer
 
-* **Transaction fixture generation**
+* **Transaction fixture generation** -
   Generate CSV (and future NACHA) files for bank transactions
 
-* **API-first design**
+* **API-first design** -
   Backend designed to support future UI migration (e.g., Angular)
 
-* **CLI and Web UI**
+* **CLI and Web UI** -
   Run scenarios via command line or browser
 
-* **Dockerized environment**
+* **Dockerized environment** -
   Easy to run and reproduce across environments
 
 ---
