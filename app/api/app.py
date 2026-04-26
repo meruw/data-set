@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from app.core.config import settings
+from app.api.routes import scenarios
 
 
 @asynccontextmanager
@@ -19,6 +20,7 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan
 )
+app.include_router(scenarios.router)
 
 
 @app.get("/health") #get health endpoint
