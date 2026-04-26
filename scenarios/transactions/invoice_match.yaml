@@ -1,0 +1,12 @@
+name: invoice_match
+description: Simple invoice matching scenario
+
+steps:
+  - action: create_invoice
+    params:
+      customer_code: C123
+      amount: 1000
+
+  - action: get_invoice
+    params:
+      doc_entry: 123
